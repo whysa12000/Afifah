@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Afifah</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="ini.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "open-sans", sans-serif}
+.mySlides {display: none}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Home</a>
+    <a href="#About-me" class="w3-bar-item w3-button w3-padding-large w3-hide-small">About Me</a>
+    <a href="#My-Portofolio" class="w3-bar-item w3-button w3-padding-large w3-hide-small">My Portofolio</a>
+    <a href="#My-Blog" class="w3-bar-item w3-button w3-padding-large w3-hide-small">My Blog</a>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#About-me" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">About Me</a>
+  <a href="#My-Diary" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">My Portofolio</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">My Blog</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+ <!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <img class="w3-image" src="kepala.jpg" alt="Halo" width="1500" height="800">
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>Halo</b></span></h1>
+    <p><h3><span class="w3-hide-small w3-text-light-grey">Selamat Datang di Website Afifah</span></h3></p>
+  </div>
+</header>
+
+  <!-- About Me -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <h2 class="w3-wide">About Me</h2>
+    <p class="w3-opacity"><i>Siti Mar'atul Afifah</i></p>
+    <p class="w3-justify">Halo Perkenalkan nama aku adalah Siti Mar'atul Afifah. Aku saat ini duduk di bangku SMA kelas X. Sebelumnya terimakasih sudah mengunjungi website saya ini. Hobi saya adalah fotografi, website ini bertujuan untuk menampilkan hasil dari foto yang telah saya ambil. Saya sangat mengetahui bahwa ada banyak kekurangan dari website yang saya buat ini. Untuk itu saya membutuhkan saran yang membangun kepada teman-teman pembaca terkait website saya. Have fun dengan apa yang saya bagikan. Sekian dan Terimakasih.</p>
+  </div>
+
+  <!-- Portofolio Section -->
+  <div class="w3-container w3-padding-32" id="Portofolio">
+    <center><h2 class="w3-wide w3-border-bottom w3-border-light-grey w3-padding-16">Portofolio</h3></center>
+  </div>
+
+<!-- card portofolio -->
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">An Template</div>
+        <div class="card">
+        <a href="1.html"><img  src="aset/1.jpeg" alt="Template" class="post-image" ></a>
+      </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Mosque</div>
+        <a href="1.html"><img src="aset/2.jpeg" alt="Mosque" class="post-image"></a>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Plant</div>
+        <a href="2.html"><img src="aset/3.jpeg" alt="Plant" class="post-image"></a>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Houses</div>
+        <a href="3.html"><img src="aset/4.jpeg" alt="Houses" class="post-image"></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- The Contact Section -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <h2 class="w3-wide w3-center">Contact</h2>
+    <p class="w3-opacity w3-center"><i>Teman-teman bisa menghubungi aku di sini.</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i> Magelang, Indonesia<br>
+        <i class="fa fa-phone" style="width:30px"></i> Whatsapp: +62 856-4872-5966<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: sitiiafifah39@gmail.com<br>
+      </div>
+      <div class="w3-col m6">
+        <form action="/action_page.php" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+          <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+<!-- End Page Content -->
+</div>
+
+<!-- Image of location/map -->
+<img src="aset/9.jpeg" class="w3-image w3-greyscale-min" style="width:100%">
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p class="w3-medium">© Afifah 2021</p>
+</footer>
+
+</body>
+</html>
